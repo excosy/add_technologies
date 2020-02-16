@@ -42,7 +42,6 @@ equipments = {
 
 		build_cost_ic = 12
 		resources = {
-#			oil = 1
 			tungsten = 2
 			steel = 2
 		}
@@ -69,6 +68,10 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
+		can_convert_from = {
+			medium_tank_equipment_1
+		}
+
 		#Misc Abilities
 		maximum_speed = 9
 
@@ -85,7 +88,6 @@ equipments = {
 
 		build_cost_ic = 13
 		resources = {
-#			oil = 1
 			tungsten = 2
 			steel = 3
 		}
@@ -100,6 +102,10 @@ equipments = {
 		priority = 50
 		visual_level = 2
 		is_convertable = yes
+
+		can_convert_from = {
+			medium_tank_equipment_2
+		}
 
 		#Misc Abilities
 		maximum_speed = 10
@@ -117,7 +123,6 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-#			oil = 2
 			tungsten = 2
 			steel = 4
 		}
@@ -165,7 +170,6 @@ equipments = {
 		build_cost_ic = 12
 
 		resources = {
-#			oil = 1
 			tungsten = 3
 			steel = 2
 		}
@@ -193,6 +197,7 @@ equipments = {
 		priority = 60
 		visual_level = 1
 		can_convert_from = {
+			medium_tank_artillery_equipment_1
 			medium_tank_equipment_1
 			medium_tank_equipment_2
 		}
@@ -214,7 +219,6 @@ equipments = {
 		resources = {
 			steel = 3
 			tungsten = 3
-#			oil = 1
 		}
 	}
 
@@ -227,6 +231,7 @@ equipments = {
 		priority = 60
 		visual_level = 2
 		can_convert_from = {
+			medium_tank_artillery_equipment_2
 			medium_tank_equipment_2
 			medium_tank_equipment_3
 		}
@@ -248,7 +253,6 @@ equipments = {
 		resources = {
 			steel = 4
 			tungsten = 3
-#			oil = 2
 		}
 	}
 
@@ -294,7 +298,6 @@ equipments = {
 		build_cost_ic = 12
 
 		resources = {
-#			oil = 1
 			tungsten = 4
 			steel = 2
 		}
@@ -324,6 +327,7 @@ equipments = {
 		priority = 80
 		visual_level = 1
 		can_convert_from = {
+			medium_tank_destroyer_equipment_1
 			medium_tank_equipment_1
 			medium_tank_equipment_2
 		}
@@ -344,7 +348,6 @@ equipments = {
 		build_cost_ic = 13
 
 		resources = {
-#			oil = 1
 			tungsten = 4
 			steel = 3
 		}
@@ -360,6 +363,7 @@ equipments = {
 		priority = 80
 		visual_level = 2
 		can_convert_from = {
+			medium_tank_destroyer_equipment_2
 			medium_tank_equipment_2
 			medium_tank_equipment_3
 		}
@@ -380,7 +384,6 @@ equipments = {
 		build_cost_ic = 14
 
 		resources = {
-#			oil = 2
 			tungsten = 4
 			steel = 4
 		}
@@ -429,7 +432,6 @@ equipments = {
 		build_cost_ic = 12
 
 		resources = {
-#			oil = 1
 			tungsten = 2
 			steel = 2
 		}
@@ -458,6 +460,7 @@ equipments = {
 		priority = 70
 		visual_level = 1
 		can_convert_from = {
+			medium_tank_aa_equipment_1
 			medium_tank_equipment_1
 			medium_tank_equipment_2
 		}
@@ -479,7 +482,6 @@ equipments = {
 		build_cost_ic = 13
 
 		resources = {
-#			oil = 1
 			tungsten = 2
 			steel = 3
 		}
@@ -494,6 +496,7 @@ equipments = {
 		priority = 70
 		visual_level = 2
 		can_convert_from = {
+			medium_tank_aa_equipment_2
 			medium_tank_equipment_2
 			medium_tank_equipment_3
 		}
@@ -515,7 +518,6 @@ equipments = {
 		build_cost_ic = 14
 
 		resources = {
-#			oil = 2
 			tungsten = 2
 			steel = 4
 		}

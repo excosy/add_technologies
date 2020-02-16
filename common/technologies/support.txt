@@ -1201,14 +1201,15 @@ technologies = {
 			}
 		}
 	}
+
 	tech_maintenance_company5 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		maintenance_company = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_maintenance_company6
@@ -1231,14 +1232,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_maintenance_company6 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		maintenance_company = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_maintenance_company7
@@ -1261,14 +1263,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_maintenance_company7 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		maintenance_company = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
 		}
 		path = {
 			leads_to_tech = tech_maintenance_company8
@@ -1291,14 +1294,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_maintenance_company8 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		maintenance_company = {
-			reliability_factor = 0.02
-			equipment_capture_factor = 0.02
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
 		}
 #		path = {
 #			leads_to_tech = tech_maintenance_company9
@@ -1513,14 +1517,15 @@ technologies = {
 			}
 		}
 	}
+
 	tech_field_hospital5 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		field_hospital = {
-			casualty_trickleback = 0.05
-			experience_loss_factor = -0.05
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
 		}
 		path = {
 			leads_to_tech = tech_field_hospital6
@@ -1544,14 +1549,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_field_hospital6 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		field_hospital = {
-			casualty_trickleback = 0.05
-			experience_loss_factor = -0.05
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
 		}
 		path = {
 			leads_to_tech = tech_field_hospital7
@@ -1575,14 +1581,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_field_hospital7 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		field_hospital = {
-			casualty_trickleback = 0.05
-			experience_loss_factor = -0.05
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
 		}
 		path = {
 			leads_to_tech = tech_field_hospital8
@@ -1606,14 +1613,15 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_field_hospital8 = {
 		xp_research_type = army
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
 		field_hospital = {
-			casualty_trickleback = 0.05
-			experience_loss_factor = -0.05
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
 		}
 #		path = {
 #			leads_to_tech = tech_field_hospital9
@@ -1838,6 +1846,7 @@ technologies = {
 			}
 		}
 	}
+
 	tech_logistics_company5 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -1845,7 +1854,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.05
-			fuel_consumption_factor = -0.025
+			fuel_consumption_factor = -0.1
 		}
 		path = {
 			leads_to_tech = tech_logistics_company6
@@ -1876,7 +1885,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.05
-			fuel_consumption_factor = -0.025
+			fuel_consumption_factor = -0.1
 		}
 		path = {
 			leads_to_tech = tech_logistics_company7
@@ -1907,7 +1916,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.05
-			fuel_consumption_factor = -0.025
+			fuel_consumption_factor = -0.1
 		}
 		path = {
 			leads_to_tech = tech_logistics_company8
@@ -1938,7 +1947,7 @@ technologies = {
 
 		logistics_company = {
 			supply_consumption_factor = -0.05
-			fuel_consumption_factor = -0.025
+			fuel_consumption_factor = -0.1
 		}
 #		path = {
 #			leads_to_tech = tech_logistics_company9
@@ -1987,7 +1996,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1936 }
+			position = { x = 14 y = @1936 }
 		}
 
 		categories = {
@@ -2015,7 +2024,6 @@ technologies = {
 			initiative = 0.12
 		}
 
-
 		path = {
 			leads_to_tech = tech_signal_company3
 			research_cost_coeff = 1
@@ -2025,7 +2033,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1939 }
+			position = { x = 14 y = @1939 }
 		}
 
 		categories = {
@@ -2070,7 +2078,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1942 }
+			position = { x = 14 y = @1942 }
 		}
 
 		categories = {
@@ -2098,6 +2106,7 @@ technologies = {
 			}
 		}
 	}
+
 	tech_signal_company4 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -2115,7 +2124,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1945 }
+			position = { x = 14 y = @1945 }
 		}
 
 		categories = {
@@ -2142,6 +2151,7 @@ technologies = {
 			}
 		}
 	}
+
 	tech_signal_company5 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -2159,7 +2169,7 @@ technologies = {
 		start_year = 1949
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1949 }
+			position = { x = 14 y = @1949 }
 		}
 
 		categories = {
@@ -2172,6 +2182,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_signal_company6 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -2189,7 +2200,7 @@ technologies = {
 		start_year = 1953
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1953 }
+			position = { x = 14 y = @1953 }
 		}
 
 		categories = {
@@ -2202,6 +2213,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_signal_company7 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -2219,7 +2231,7 @@ technologies = {
 		start_year = 1957
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1957 }
+			position = { x = 14 y = @1957 }
 		}
 
 		categories = {
@@ -2232,6 +2244,7 @@ technologies = {
 			factor = 1
 		}
 	}
+
 	tech_signal_company8 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -2249,7 +2262,7 @@ technologies = {
 		start_year = 1961
 		folder = {
 			name = support_folder
-			position = { x = 15 y = @1961 }
+			position = { x = 14 y = @1961 }
 		}
 
 		categories = {
@@ -2262,6 +2275,4 @@ technologies = {
 			factor = 1
 		}
 	}
-
-
 }

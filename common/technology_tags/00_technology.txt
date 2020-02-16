@@ -33,6 +33,7 @@ technology_categories = {
 	cat_heavy_fighter
 	tactical_bomber
 	cat_strategic_bomber
+	cat_transport_plane
 	naval_bomber
 	cas_bomber
 	dd_tech

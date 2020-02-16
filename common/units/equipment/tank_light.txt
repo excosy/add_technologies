@@ -42,7 +42,6 @@ equipments = {
 
 		build_cost_ic = 8
 		resources = {
-#			oil = 1
 			steel = 2
 		}
 		fuel_consumption = 2.4
@@ -86,6 +85,10 @@ equipments = {
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
+
+		can_convert_from = {
+			gw_tank_equipment
+		}
 	}
 
 	light_tank_equipment_2 = {
@@ -96,6 +99,10 @@ equipments = {
 		priority = 10
 		visual_level = 1
 		is_convertable = yes
+
+		can_convert_from = {
+			light_tank_equipment_1
+		}
 
 		#Misc Abilities
 		maximum_speed = 12
@@ -113,7 +120,6 @@ equipments = {
 
 		build_cost_ic = 9
 		resources = {
-#			oil = 1
 			steel = 3
 		}
 	}
@@ -126,6 +132,10 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		is_convertable = yes
+
+		can_convert_from = {
+			light_tank_equipment_2
+		}
 
 		#Misc Abilities
 		maximum_speed = 14
@@ -143,7 +153,6 @@ equipments = {
 
 		build_cost_ic = 10
 		resources = {
-#			oil = 2
 			steel = 4
 		}
 	}
@@ -157,23 +166,26 @@ equipments = {
 		visual_level = 2
 		is_convertable = yes
 
+		can_convert_from = {
+			light_tank_equipment_3
+		}
+
 		#Misc Abilities
-		maximum_speed = 15
+		maximum_speed = 16
 
 		#Defensive Abilities
-		defense = 6.5
-		breakthrough = 50
-		armor_value = 35
+		defense = 7
+		breakthrough = 56
+		armor_value = 45
 
 		#Offensive Abilities
-		soft_attack = 27
-		hard_attack = 11
-		ap_attack = 60
+		soft_attack = 26
+		hard_attack = 13
+		ap_attack = 65
 		air_attack = 0
 
-		build_cost_ic = 10.5
+		build_cost_ic = 11
 		resources = {
-#			oil = 2
 			steel = 4
 		}
 	}
@@ -186,23 +198,26 @@ equipments = {
 		priority = 10
 		visual_level = 2
 
+		can_convert_from = {
+			light_tank_equipment_4
+		}
+
 		#Misc Abilities
-		maximum_speed = 16
+		maximum_speed = 18
 
 		#Defensive Abilities
-		defense = 7
-		breakthrough = 54
-		armor_value = 40
+		defense = 8
+		breakthrough = 66
+		armor_value = 60
 
 		#Offensive Abilities
-		soft_attack = 32
-		hard_attack = 12
-		ap_attack = 70
+		soft_attack = 30
+		hard_attack = 17
+		ap_attack = 80
 		air_attack = 0
 
-		build_cost_ic = 11
+		build_cost_ic = 12
 		resources = {
-#			oil = 2
 			steel = 5
 		}
 	}
@@ -215,23 +230,26 @@ equipments = {
 		priority = 10
 		visual_level = 5
 
+		can_convert_from = {
+			light_tank_equipment_5
+		}
+
 		#Misc Abilities
-		maximum_speed = 16.5
+		maximum_speed = 20
 
 		#Defensive Abilities
-		defense = 7.5
-		breakthrough = 57
-		armor_value = 45
+		defense = 9
+		breakthrough = 76
+		armor_value = 75
 
 		#Offensive Abilities
-		soft_attack = 37
-		hard_attack = 13
-		ap_attack = 80
+		soft_attack = 34
+		hard_attack = 21
+		ap_attack = 95
 		air_attack = 0
 
-		build_cost_ic = 11.5
+		build_cost_ic = 13
 		resources = {
-#			oil = 2
 			steel = 5
 		}
 	}
@@ -244,24 +262,27 @@ equipments = {
 		priority = 10
 		visual_level = 6
 
+		can_convert_from = {
+			light_tank_equipment_6
+		}
+
 		#Misc Abilities
-		maximum_speed = 17
+		maximum_speed = 22
 
 		#Defensive Abilities
-		defense = 8
-		breakthrough = 60
-		armor_value = 50
+		defense = 10
+		breakthrough = 86
+		armor_value = 90
 
 		#Offensive Abilities
-		soft_attack = 42
-		hard_attack = 14
-		ap_attack = 85
+		soft_attack = 38
+		hard_attack = 26
+		ap_attack = 110
 		air_attack = 0
 
-		build_cost_ic = 12
+		build_cost_ic = 14
 		resources = {
-#			oil = 3
-			steel = 5
+			steel = 6
 		}
 	}
 
@@ -305,7 +326,6 @@ equipments = {
 
 		build_cost_ic = 8
 		resources = {
-#			oil = 1
 			steel = 2
 			tungsten= 1
 		}
@@ -331,6 +351,7 @@ equipments = {
 		priority = 20
 		visual_level = 1
 		can_convert_from = {
+			light_tank_artillery_equipment_1
 			light_tank_equipment_1
 			light_tank_equipment_2
 		}
@@ -350,7 +371,6 @@ equipments = {
 		build_cost_ic = 9
 		resources = {
 			steel = 3
-#			oil = 1
 			tungsten= 1
 		}
 	}
@@ -363,6 +383,7 @@ equipments = {
 		priority = 20
 		visual_level = 2
 		can_convert_from = {
+			light_tank_artillery_equipment_2
 			light_tank_equipment_2
 			light_tank_equipment_3
 		}
@@ -383,7 +404,6 @@ equipments = {
 		build_cost_ic = 10
 		resources = {
 			steel = 4
-#			oil = 2
 			tungsten = 1
 		}
 	}
@@ -396,6 +416,7 @@ equipments = {
 		priority = 20
 		visual_level = 3
 		can_convert_from = {
+			light_tank_artillery_equipment_3
 			light_tank_equipment_3
 			light_tank_equipment_4
 		}
@@ -411,12 +432,11 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 50
-		hard_attack = 1.5
+		hard_attack = 2
 		ap_attack = 5
 
-		build_cost_ic = 10.5
+		build_cost_ic = 11
 		resources = {
-#			oil = 2
 			steel = 4
 			tungsten = 1
 		}
@@ -430,6 +450,7 @@ equipments = {
 		priority = 20
 		visual_level = 4
 		can_convert_from = {
+			light_tank_artillery_equipment_4
 			light_tank_equipment_4
 			light_tank_equipment_5
 		}
@@ -445,12 +466,11 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 54
-		hard_attack = 1.5
+		hard_attack = 2.5
 		ap_attack = 5
 
-		build_cost_ic = 11
+		build_cost_ic = 12
 		resources = {
-#			oil = 2
 			steel = 5
 			tungsten = 1
 		}
@@ -464,6 +484,7 @@ equipments = {
 		priority = 20
 		visual_level = 5
 		can_convert_from = {
+			light_tank_artillery_equipment_5
 			light_tank_equipment_5
 			light_tank_equipment_6
 		}
@@ -479,14 +500,13 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 58
-		hard_attack = 2
+		hard_attack = 3
 		ap_attack = 5
 
-		build_cost_ic = 11.5
+		build_cost_ic = 13
 		resources = {
-#			oil = 2
 			steel = 5
-			tungsten = 2
+			tungsten = 1
 		}
 	}
 
@@ -498,13 +518,14 @@ equipments = {
 		priority = 20
 		visual_level = 6
 		can_convert_from = {
+			light_tank_artillery_equipment_6
 			light_tank_equipment_6
 			light_tank_equipment_7
 		}
 
 
 		#Misc Abilities
-		maximum_speed = 17
+		maximum_speed = 22
 
 		#Defensive Abilities
 		defense = 8.5
@@ -513,12 +534,11 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 62
-		hard_attack = 2
+		hard_attack = 3.5
 		ap_attack = 5
 
-		build_cost_ic = 12
+		build_cost_ic = 14
 		resources = {
-#			oil = 3
 			steel = 5
 			tungsten = 2
 		}
@@ -564,7 +584,6 @@ equipments = {
 
 		build_cost_ic = 8
 		resources = {
-#			oil = 1
 			steel = 2
 			tungsten = 2
 		}
@@ -590,6 +609,7 @@ equipments = {
 		priority = 40
 		visual_level = 1
 		can_convert_from = {
+			light_tank_destroyer_equipment_1
 			light_tank_equipment_1
 			light_tank_equipment_2
 		}
@@ -610,7 +630,6 @@ equipments = {
 
 		build_cost_ic = 9
 		resources = {
-#			oil = 1
 			steel = 3
 			tungsten = 2
 		}
@@ -624,6 +643,7 @@ equipments = {
 		priority = 40
 		visual_level = 2
 		can_convert_from = {
+			light_tank_destroyer_equipment_2
 			light_tank_equipment_2
 			light_tank_equipment_3
 		}
@@ -632,7 +652,7 @@ equipments = {
 		maximum_speed = 14
 
 		#Defensive Abilities
-		defense = 7
+		defense = 6
 		breakthrough = 1.8
 		armor_value = 30
 
@@ -643,7 +663,6 @@ equipments = {
 
 		build_cost_ic = 10
 		resources = {
-#			oil = 2
 			steel = 4
 			tungsten = 2
 		}
@@ -657,20 +676,20 @@ equipments = {
 		priority = 40
 		visual_level = 3
 		can_convert_from = {
+			light_tank_destroyer_equipment_3
 			light_tank_equipment_3
 			light_tank_equipment_4
 		}
-		maximum_speed = 15
+		maximum_speed = 16
 		defense = 7
-		breakthrough = 1.9
-		armor_value = 35
+		breakthrough = 2.2
+		armor_value = 45
 		soft_attack = 8
-		hard_attack = 26
-		ap_attack = 103
+		hard_attack = 32
+		ap_attack = 120
 
-		build_cost_ic = 10.5
+		build_cost_ic = 11
 		resources = {
-#			oil = 2
 			steel = 4
 			tungsten = 2
 		}
@@ -684,22 +703,22 @@ equipments = {
 		priority = 40
 		visual_level = 4
 		can_convert_from = {
+			light_tank_destroyer_equipment_4
 			light_tank_equipment_4
 			light_tank_equipment_5
 		}
-		maximum_speed = 16
-		defense = 7.5
-		breakthrough = 2
-		armor_value = 40
+		maximum_speed = 18
+		defense = 8
+		breakthrough = 2.6
+		armor_value = 60
 		soft_attack = 8
-		hard_attack = 28
-		ap_attack = 107
+		hard_attack = 40
+		ap_attack = 140
 
-		build_cost_ic = 11
+		build_cost_ic = 12
 		resources = {
-#			oil = 2
 			steel = 5
-			tungsten = 3
+			tungsten = 2
 		}
 	}
 
@@ -711,22 +730,22 @@ equipments = {
 		priority = 40
 		visual_level = 5
 		can_convert_from = {
+			light_tank_destroyer_equipment_5
 			light_tank_equipment_5
 			light_tank_equipment_6
 		}
-		maximum_speed = 16.5
-		defense = 8
-		breakthrough = 2.2
-		armor_value = 45
+		maximum_speed = 20
+		defense = 9
+		breakthrough = 3.0
+		armor_value = 75
 		soft_attack = 9
-		hard_attack = 30
-		ap_attack = 111
+		hard_attack = 48
+		ap_attack = 160
 
-		build_cost_ic = 11.5
+		build_cost_ic = 13
 		resources = {
-#			oil = 2
 			steel = 5
-			tungsten = 3
+			tungsten = 2
 		}
 	}
 
@@ -738,25 +757,24 @@ equipments = {
 		priority = 40
 		visual_level = 6
 		can_convert_from = {
+			light_tank_destroyer_equipment_6
 			light_tank_equipment_6
 			light_tank_equipment_7
 		}
-		maximum_speed = 17
-		defense = 8.5
-		breakthrough = 2.3
-		armor_value = 50
-		soft_attack = 9
-		hard_attack = 32
-		ap_attack = 115
+		maximum_speed = 22
+		defense = 10
+		breakthrough = 3.4
+		armor_value = 90
+		soft_attack = 10
+		hard_attack = 56
+		ap_attack = 180
 
-		build_cost_ic = 12
+		build_cost_ic = 14
 		resources = {
-#			oil = 3
 			steel = 5
 			tungsten = 3
 		}
 	}
-
 
 	light_tank_aa_equipment = {
 		year = 1934
@@ -798,7 +816,6 @@ equipments = {
 
 		build_cost_ic = 10
 		resources = {
-#			oil = 1
 			steel = 2
 		}
 		fuel_consumption = 0.6
@@ -824,6 +841,7 @@ equipments = {
 		priority = 30
 		visual_level = 1
 		can_convert_from = {
+			light_tank_aa_equipment_1
 			light_tank_equipment_1
 			light_tank_equipment_2
 		}
@@ -844,7 +862,6 @@ equipments = {
 
 		build_cost_ic = 11
 		resources = {
-#			oil = 1
 			steel = 3
 		}
 	}
@@ -857,6 +874,7 @@ equipments = {
 		priority = 30
 		visual_level = 2
 		can_convert_from = {
+			light_tank_aa_equipment_2
 			light_tank_equipment_2
 			light_tank_equipment_3
 		}
@@ -877,7 +895,6 @@ equipments = {
 
 		build_cost_ic = 12
 		resources = {
-#			oil = 2
 			steel = 4
 		}
 	}
@@ -890,20 +907,20 @@ equipments = {
 		priority = 30
 		visual_level = 3
 		can_convert_from = {
+			light_tank_aa_equipment_3
 			light_tank_equipment_3
 			light_tank_equipment_4
 		}
-		maximum_speed = 15
-		defense = 3.5
+		maximum_speed = 16
+		defense = 4.5
 		breakthrough = 3.8
 		armor_value = 28
 		soft_attack = 5
 		hard_attack = 4.5
 		ap_attack = 50
 		air_attack = 36
-		build_cost_ic = 12.5
+		build_cost_ic = 13
 		resources = {
-#			oil = 2
 			steel = 4
 		}
 	}
@@ -916,20 +933,20 @@ equipments = {
 		priority = 30
 		visual_level = 4
 		can_convert_from = {
+			light_tank_aa_equipment_4
 			light_tank_equipment_4
 			light_tank_equipment_5
 		}
-		maximum_speed = 16
-		defense = 3.8
+		maximum_speed = 18
+		defense = 5.5
 		breakthrough = 4.2
 		armor_value = 30
 		soft_attack = 5.5
 		hard_attack = 5
 		ap_attack = 65
-		air_attack = 39
-		build_cost_ic = 13
+		air_attack = 40
+		build_cost_ic = 14
 		resources = {
-#			oil = 2
 			steel = 4
 		}
 	}
@@ -942,20 +959,20 @@ equipments = {
 		priority = 30
 		visual_level = 5
 		can_convert_from = {
+			light_tank_aa_equipment_5
 			light_tank_equipment_5
 			light_tank_equipment_6
 		}
-		maximum_speed = 16.5
-		defense = 4
-		breakthrough = 4.4
+		maximum_speed = 20
+		defense = 6.5
+		breakthrough = 4.6
 		armor_value = 33
 		soft_attack = 6
 		hard_attack = 5.5
 		ap_attack = 80
-		air_attack = 42
-		build_cost_ic = 13.5
+		air_attack = 44
+		build_cost_ic = 15
 		resources = {
-#			oil = 2
 			steel = 5
 		}
 	}
@@ -968,21 +985,21 @@ equipments = {
 		priority = 30
 		visual_level = 6
 		can_convert_from = {
+			light_tank_aa_equipment_6
 			light_tank_equipment_6
 			light_tank_equipment_7
 		}
-		maximum_speed = 17
-		defense = 4.3
-		breakthrough = 4.6
+		maximum_speed = 22
+		defense = 7.5
+		breakthrough = 5
 		armor_value = 35
 		soft_attack = 6.5
 		hard_attack = 6
 		ap_attack = 90
-		air_attack = 45
-		build_cost_ic = 14
+		air_attack = 48
+		build_cost_ic = 16
 		resources = {
-#			oil = 2
-			steel = 5
+			steel = 6
 		}
 	}
 }

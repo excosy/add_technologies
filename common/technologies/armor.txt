@@ -49,7 +49,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 0 }
+			position = { x = -4 y = 0 }
 		}
 
 		ai_will_do = {
@@ -553,12 +553,224 @@ technologies = {
 			amphibious_tank_equipment_2
 		}
 
+		path = {
+			leads_to_tech = amphibious_tank_3
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
 		start_year = 1942
 
 		folder = {
 			name = armour_folder
 			position = { x = -8 y = 9 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_3 = { #tauchPanzer III
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			amphibious_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = amphibious_tank_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1946
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 13 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_4 = { #tauchPanzer III
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			amphibious_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = amphibious_tank_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 17 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_5 = { #tauchPanzer III
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			amphibious_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = amphibious_tank_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1954
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 21 }
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				OR = {
+					original_tag = USA
+					original_tag = JAP
+				}
+				factor = 2
+			}
+			modifier = {
+				not = {
+					any_state = {
+						is_controlled_by = ROOT
+						is_coastal = yes
+					}
+				}
+				factor = 0
+			}
+		}
+
+		categories = {
+			armor
+			tp_tech
+		}
+	}
+
+	amphibious_tank_6 = { #tauchPanzer III
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			amphibious_tank_equipment_6
+		}
+
+		research_cost = 2
+		start_year = 1959
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 25 }
 		}
 
 		ai_will_do = {
@@ -600,9 +812,14 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_3
 		}
+
 		path = {
 			leads_to_tech = light_tank4
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = amphibious_tank_2
+			research_cost_coeff = 0.9
 		}
 
 		research_cost = 2
@@ -738,7 +955,10 @@ technologies = {
 			leads_to_tech = light_tank5
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = amphibious_tank_3
+			research_cost_coeff = 0.9
+		}
 
 		research_cost = 2
 		start_year = 1945
@@ -842,7 +1062,10 @@ technologies = {
 			leads_to_tech = light_tank6
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = amphibious_tank_4
+			research_cost_coeff = 0.9
+		}
 
 		research_cost = 2
 		start_year = 1949
@@ -932,6 +1155,7 @@ technologies = {
 			armor
 		}
 	}
+
 	light_tank6 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -945,7 +1169,10 @@ technologies = {
 			leads_to_tech = light_tank7
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = amphibious_tank_5
+			research_cost_coeff = 0.9
+		}
 
 		research_cost = 2
 		start_year = 1953
@@ -1035,6 +1262,7 @@ technologies = {
 			armor
 		}
 	}
+
 	light_tank7 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -1043,7 +1271,10 @@ technologies = {
 		enable_equipments = {
 			light_tank_equipment_7
 		}
-
+		path = {
+			leads_to_tech = amphibious_tank_6
+			research_cost_coeff = 0.9
+		}
 
 		research_cost = 2
 		start_year = 1958
@@ -1798,7 +2029,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 12 }
+			position = { x = 3 y = 12 }
 		}
 
 		sub_technologies = {
@@ -1925,7 +2156,6 @@ technologies = {
 		}
 	}
 
-
 	main_battle_tank2 = {
 		xp_research_type = army
 		xp_research_cost = 50
@@ -1934,17 +2164,17 @@ technologies = {
 		enable_equipments = {
 			modern_tank_equipment_2
 		}
-
 		path = {
 			leads_to_tech = main_battle_tank3
 			research_cost_coeff = 1
 		}
+
 		research_cost = 2.5
 		start_year = 1948
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 14 }
+			position = { x = 3 y = 15 }
 		}
 
 		sub_technologies = {
@@ -1955,6 +2185,11 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1949.1.1"
+			}
 		}
 
 		categories = {
@@ -1976,7 +2211,12 @@ technologies = {
 		start_year = 1948
 
 		ai_will_do = {
-			factor = 0.1
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1949.1.1"
+			}
 		}
 
 		categories = {
@@ -1997,7 +2237,12 @@ technologies = {
 		start_year = 1948
 
 		ai_will_do = {
-			factor = 0.1
+			factor = 1
+
+			modifier = {
+				factor = 2
+				date > "1949.1.1"
+			}
 		}
 
 		categories = {
@@ -2018,7 +2263,7 @@ technologies = {
 		start_year = 1948
 
 		ai_will_do = {
-			factor = 0.1
+			factor = 0
 		}
 
 		categories = {
@@ -2040,11 +2285,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2.5
-		start_year = 1951
+		start_year = 1952
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 18 }
+			position = { x = 3 y = 19 }
 		}
 
 		sub_technologies = {
@@ -2073,7 +2318,7 @@ technologies = {
 		}
 
 		research_cost = 0.5
-		start_year = 1951
+		start_year = 1952
 
 		ai_will_do = {
 			factor = 0.1
@@ -2094,7 +2339,7 @@ technologies = {
 		}
 
 		research_cost = 0.5
-		start_year = 1951
+		start_year = 1952
 
 		ai_will_do = {
 			factor = 0.1
@@ -2115,7 +2360,7 @@ technologies = {
 		}
 
 		research_cost = 0.5
-		start_year = 1951
+		start_year = 1952
 
 		ai_will_do = {
 			factor = 0.1
@@ -2144,7 +2389,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 22 }
+			position = { x = 3 y = 22 }
 		}
 
 		sub_technologies = {
@@ -2240,7 +2485,7 @@ technologies = {
 
 		folder = {
 			name = armour_folder
-			position = { x = 2 y = 26 }
+			position = { x = 3 y = 26 }
 		}
 
 		sub_technologies = {
@@ -2823,198 +3068,199 @@ technologies = {
 		}
 	}
 
-	heavy_tank4 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_tank4 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_equipment_4
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_equipment_4
+	# 	}
 
-		path = {
-			leads_to_tech = heavy_tank5
-			research_cost_coeff = 1
-		}
-		research_cost = 2.5
-		start_year = 1948
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = 14 }
-		}
+	# 	path = {
+	# 		leads_to_tech = heavy_tank5
+	# 		research_cost_coeff = 1
+	# 	}
+	# 	research_cost = 2.5
+	# 	start_year = 1946
+	# 	folder = {
+	# 		name = armour_folder
+	# 		position = { x = 6 y = 14 }
+	# 	}
 
-		sub_technologies = {
-			heavy_td4
-			heavy_art4
-			heavy_spaa4
-		}
+	# 	sub_technologies = {
+	# 		heavy_td4
+	# 		heavy_art4
+	# 		heavy_spaa4
+	# 	}
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-			cat_heavy_armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 		cat_heavy_armor
+	# 	}
+	# }
 
-	heavy_td4 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_td4 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_destroyer_equipment_4
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_destroyer_equipment_4
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1948
+	# 	research_cost = 0.5
+	# 	start_year = 1946
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
 
-	heavy_art4 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_art4 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_artillery_equipment_4
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_artillery_equipment_4
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1948
+	# 	research_cost = 0.5
+	# 	start_year = 1946
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
 
-	heavy_spaa4 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_spaa4 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_aa_equipment_4
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_aa_equipment_4
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1948
+	# 	research_cost = 0.5
+	# 	start_year = 1946
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
-	heavy_tank5 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
+	# heavy_tank5 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_equipment_5
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_equipment_5
+	# 	}
 
-		research_cost = 2.5
-		start_year = 1956
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = 22 }
-		}
+	# 	research_cost = 2.5
+	# 	start_year = 1956
+	# 	folder = {
+	# 		name = armour_folder
+	# 		position = { x = 6 y = 22 }
+	# 	}
 
-		sub_technologies = {
-			heavy_td5
-			heavy_art5
-			heavy_spaa5
-		}
+	# 	sub_technologies = {
+	# 		heavy_td5
+	# 		heavy_art5
+	# 		heavy_spaa5
+	# 	}
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-			cat_heavy_armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 		cat_heavy_armor
+	# 	}
+	# }
 
-	heavy_td5 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_td5 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_destroyer_equipment_5
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_destroyer_equipment_5
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1956
+	# 	research_cost = 0.5
+	# 	start_year = 1956
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
 
-	heavy_art5 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_art5 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_artillery_equipment_5
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_artillery_equipment_5
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1956
+	# 	research_cost = 0.5
+	# 	start_year = 1956
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
 
-	heavy_spaa5 = {
-		xp_research_type = army
-		xp_research_cost = 50
-		xp_research_bonus = 0.50
+	# heavy_spaa5 = {
+	# 	xp_research_type = army
+	# 	xp_research_cost = 50
+	# 	xp_research_bonus = 0.50
 
-		enable_equipments = {
-			heavy_tank_aa_equipment_5
-		}
+	# 	enable_equipments = {
+	# 		heavy_tank_aa_equipment_5
+	# 	}
 
-		research_cost = 0.5
-		start_year = 1956
+	# 	research_cost = 0.5
+	# 	start_year = 1956
 
-		ai_will_do = {
-			factor = 0
-		}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
 
-		categories = {
-			armor
-		}
-	}
+	# 	categories = {
+	# 		armor
+	# 	}
+	# }
+
 	super_heavy_tank = { #Maus
 		xp_research_type = army
 		xp_research_cost = 50
@@ -3024,6 +3270,10 @@ technologies = {
 			super_heavy_tank_equipment_1
 		}
 
+		path = {
+			leads_to_tech = super_heavy_tank2
+			research_cost_coeff = 1
+		}
 		research_cost = 2.5
 		start_year = 1943
 		folder = {
@@ -3110,4 +3360,298 @@ technologies = {
 		}
 	}
 
+	super_heavy_tank2 = { #Maus
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_equipment_2
+		}
+
+		path = {
+			leads_to_tech = super_heavy_tank3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1947
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = 14 }
+		}
+
+		sub_technologies = {
+			super_heavy_td2
+			super_heavy_art2
+			super_heavy_spaa2
+		}
+
+		ai_will_do = {
+			factor = 0 # Hitler cries on the inside
+		}
+
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+
+	super_heavy_td2 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_destroyer_equipment_2
+		}
+
+		research_cost = 0.5
+		start_year = 1947
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_art2 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_artillery_equipment_2
+		}
+
+		research_cost = 0.5
+		start_year = 1947
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_spaa2 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_aa_equipment_2
+		}
+
+		research_cost = 0.5
+		start_year = 1947
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_tank3 = { #Maus
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = super_heavy_tank4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1952
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = 19 }
+		}
+
+		sub_technologies = {
+			super_heavy_td3
+			super_heavy_art3
+			super_heavy_spaa3
+		}
+
+		ai_will_do = {
+			factor = 0 # Hitler cries on the inside
+		}
+
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+
+	super_heavy_td3 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_destroyer_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 1952
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_art3 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_artillery_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 1952
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_spaa3 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_aa_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 1952
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_tank4 = { #Maus
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_equipment_4
+		}
+
+		research_cost = 2.5
+		start_year = 1957
+		folder = {
+			name = armour_folder
+			position = { x = 10 y = 23 }
+		}
+
+		sub_technologies = {
+			super_heavy_td4
+			super_heavy_art4
+			super_heavy_spaa4
+		}
+
+		ai_will_do = {
+			factor = 0 # Hitler cries on the inside
+		}
+
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+
+	super_heavy_td4 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_destroyer_equipment_4
+		}
+
+		research_cost = 0.5
+		start_year = 1957
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_art4 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_artillery_equipment_4
+		}
+
+		research_cost = 0.5
+		start_year = 1957
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
+
+	super_heavy_spaa4 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+
+		enable_equipments = {
+			super_heavy_tank_aa_equipment_4
+		}
+
+		research_cost = 0.5
+		start_year = 1957
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		categories = {
+			armor
+		}
+	}
 }

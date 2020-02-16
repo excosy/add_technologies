@@ -40,7 +40,6 @@ equipments = {
 
 		build_cost_ic = 28
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 4
 		}
@@ -53,6 +52,11 @@ equipments = {
 		archetype = modern_tank_equipment
 		priority = 170
 		visual_level = 0
+
+		can_convert_from = {
+			heavy_tank_equipment_3
+			medium_tank_equipment_3
+		}
 	}
 
 	modern_tank_equipment_2 = {
@@ -62,40 +66,48 @@ equipments = {
 		parent = modern_tank_equipment_1
 		priority = 170
 		visual_level = 1
-		maximum_speed = 10.5
-		defense = 10.5
-		breakthrough = 85
+
+		can_convert_from = {
+			modern_tank_aa_equipment_1
+		}
+
+		maximum_speed = 11.5
+		defense = 11
+		breakthrough = 91
 		armor_value = 120
-		soft_attack = 44
-		hard_attack = 35
+		soft_attack = 50
+		hard_attack = 40
 		ap_attack = 121
-		build_cost_ic = 29
+		build_cost_ic = 30
 		resources = {
-#			oil = 2
 			steel = 4
 			chromium = 4
 		}
 	}
 
 	modern_tank_equipment_3 = {
-		year = 1951
+		year = 1952
 		is_convertable = yes
 		archetype = modern_tank_equipment
 		parent = modern_tank_equipment_2
 		priority = 170
 		visual_level = 2
-		maximum_speed = 11
-		defense = 11
-		breakthrough = 95
-		armor_value = 142
-		soft_attack = 48
-		hard_attack = 40
-		ap_attack = 143
-		build_cost_ic = 30
+
+		can_convert_from = {
+			modern_tank_aa_equipment_2
+		}
+
+		maximum_speed = 13
+		defense = 12
+		breakthrough = 104
+		armor_value = 140
+		soft_attack = 60
+		hard_attack = 50
+		ap_attack = 141
+		build_cost_ic = 32
 		resources = {
-#			oil = 2
 			steel = 5
-			chromium = 5
+			chromium = 4
 		}
 	}
 
@@ -106,17 +118,21 @@ equipments = {
 		parent = modern_tank_equipment_3
 		priority = 170
 		visual_level = 3
-		maximum_speed = 11.5
-		defense = 11.5
-		breakthrough = 105
-		armor_value = 165
-		soft_attack = 51
-		hard_attack = 45
-		ap_attack = 166
-		build_cost_ic = 31
+
+		can_convert_from = {
+			modern_tank_equipment_3
+		}
+
+		maximum_speed = 14.5
+		defense = 13
+		breakthrough = 117
+		armor_value = 160
+		soft_attack = 70
+		hard_attack = 60
+		ap_attack = 161
+		build_cost_ic = 34
 		resources = {
-#			oil = 2
-			steel = 6
+			steel = 5
 			chromium = 5
 		}
 	}
@@ -128,18 +144,22 @@ equipments = {
 		parent = modern_tank_equipment_4
 		priority = 170
 		visual_level = 4
-		maximum_speed = 12
-		defense = 12
-		breakthrough = 115
-		armor_value = 185
-		soft_attack = 54
-		hard_attack = 50
-		ap_attack = 186
-		build_cost_ic = 32
+
+		can_convert_from = {
+			modern_tank_equipment_4
+		}
+
+		maximum_speed = 16
+		defense = 14
+		breakthrough = 130
+		armor_value = 180
+		soft_attack = 80
+		hard_attack = 70
+		ap_attack = 181
+		build_cost_ic = 36
 		resources = {
-#			oil = 3
 			steel = 6
-			chromium = 6
+			chromium = 5
 		}
 	}
 
@@ -186,7 +206,6 @@ equipments = {
 		build_cost_ic = 28
 
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 4
 		}
@@ -200,6 +219,8 @@ equipments = {
 		visual_level = 0
 		can_convert_from = {
 			modern_tank_equipment_1
+			heavy_tank_artillery_equipment_3
+			medium_tank_artillery_equipment_3
 		}
 	}
 
@@ -211,45 +232,45 @@ equipments = {
 		priority = 180
 		visual_level = 1
 		can_convert_from = {
+			modern_tank_artillery_equipment_1
 			modern_tank_equipment_1
 			modern_tank_equipment_2
 		}
-		maximum_speed = 10.5
-		defense = 8.5
+		maximum_speed = 11.5
+		defense = 9
 		breakthrough = 4.5
-		armor_value = 100
-		soft_attack = 70
-		hard_attack = 3.5
-		build_cost_ic = 29
+		armor_value = 108
+		soft_attack = 80
+		hard_attack = 4
+		build_cost_ic = 30
 		resources = {
-#			oil = 2
 			steel = 4
 			chromium = 4
 		}
 	}
 
 	modern_tank_artillery_equipment_3 = {
-		year = 1951
+		year = 1952
 		archetype = modern_tank_artillery_equipment
 		parent = modern_tank_artillery_equipment_2
 		family = modern_tank_equipment_3
 		priority = 180
 		visual_level = 2
 		can_convert_from = {
+			modern_tank_artillery_equipment_2
 			modern_tank_equipment_2
 			modern_tank_equipment_3
 		}
-		maximum_speed = 11
-		defense = 9
+		maximum_speed = 13
+		defense = 10
 		breakthrough = 5
-		armor_value = 111
-		soft_attack = 75
-		hard_attack = 4
-		build_cost_ic = 30
+		armor_value = 126
+		soft_attack = 95
+		hard_attack = 5
+		build_cost_ic = 32
 		resources = {
-#			oil = 2
 			steel = 5
-			chromium = 5
+			chromium = 4
 		}
 	}
 
@@ -261,19 +282,19 @@ equipments = {
 		priority = 180
 		visual_level = 3
 		can_convert_from = {
+			modern_tank_artillery_equipment_3
 			modern_tank_equipment_3
 			modern_tank_equipment_4
 		}
-		maximum_speed = 11.5
-		defense = 9.5
-		breakthrough = 6
-		armor_value = 121
-		soft_attack = 80
-		hard_attack = 4.5
-		build_cost_ic = 31
+		maximum_speed = 14.5
+		defense = 11
+		breakthrough = 5.5
+		armor_value = 144
+		soft_attack = 110
+		hard_attack = 6
+		build_cost_ic = 34
 		resources = {
-#			oil = 2
-			steel = 6
+			steel = 5
 			chromium = 5
 		}
 	}
@@ -286,20 +307,20 @@ equipments = {
 		priority = 180
 		visual_level = 4
 		can_convert_from = {
+			modern_tank_artillery_equipment_4
 			modern_tank_equipment_4
 			modern_tank_equipment_5
 		}
-		maximum_speed = 12
-		defense = 10
-		breakthrough = 7
-		armor_value = 132
-		soft_attack = 85
-		hard_attack = 5
-		build_cost_ic = 32
+		maximum_speed = 16
+		defense = 12
+		breakthrough = 6
+		armor_value = 162
+		soft_attack = 125
+		hard_attack = 7
+		build_cost_ic = 36
 		resources = {
-#			oil = 3
 			steel = 6
-			chromium = 6
+			chromium = 5
 		}
 	}
 
@@ -338,14 +359,13 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 10
 		hard_attack = 42
-		ap_attack = 165
+		ap_attack = 135
 		air_attack = 0
 
 
 		build_cost_ic = 28
 
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 4
 		}
@@ -359,6 +379,8 @@ equipments = {
 		visual_level = 0
 		can_convert_from = {
 			modern_tank_equipment_1
+			heavy_tank_destroyer_equipment_3
+			medium_tank_destroyer_equipment_3
 		}
 	}
 
@@ -370,47 +392,47 @@ equipments = {
 		priority = 200
 		visual_level = 1
 		can_convert_from = {
+			modern_tank_destroyer_equipment_1
 			modern_tank_equipment_1
 			modern_tank_equipment_2
 		}
-		maximum_speed = 10.5
-		defense = 8.5
-		breakthrough = 2.5
+		maximum_speed = 11.5
+		defense = 9
+		breakthrough = 2.3
 		armor_value = 120
 		soft_attack = 12
-		hard_attack = 51
-		ap_attack = 178
-		build_cost_ic = 29
+		hard_attack = 54
+		ap_attack = 155
+		build_cost_ic = 30
 		resources = {
-#			oil = 2
 			steel = 4
 			chromium = 4
 		}
 	}
 
 	modern_tank_destroyer_equipment_3 = {
-		year = 1951
+		year = 1952
 		archetype = modern_tank_destroyer_equipment
 		parent = modern_tank_destroyer_equipment_2
 		family = modern_tank_equipment_3
 		priority = 200
 		visual_level = 2
 		can_convert_from = {
+			modern_tank_destroyer_equipment_2
 			modern_tank_equipment_2
 			modern_tank_equipment_3
 		}
-		maximum_speed = 11
-		defense = 9
-		breakthrough = 3
-		armor_value = 142
+		maximum_speed = 13
+		defense = 10
+		breakthrough = 2.6
+		armor_value = 140
 		soft_attack = 14
-		hard_attack = 61
-		ap_attack = 190
-		build_cost_ic = 30
+		hard_attack = 66
+		ap_attack = 175
+		build_cost_ic = 32
 		resources = {
-#			oil = 2
 			steel = 5
-			chromium = 5
+			chromium = 4
 		}
 	}
 
@@ -422,20 +444,20 @@ equipments = {
 		priority = 200
 		visual_level = 3
 		can_convert_from = {
+			modern_tank_destroyer_equipment_3
 			modern_tank_equipment_3
 			modern_tank_equipment_4
 		}
-		maximum_speed = 11.5
-		defense = 9.5
-		breakthrough = 3.5
-		armor_value = 165
+		maximum_speed = 14.5
+		defense = 11
+		breakthrough = 2.9
+		armor_value = 160
 		soft_attack = 16
-		hard_attack = 71
-		ap_attack = 205
-		build_cost_ic = 31
+		hard_attack = 78
+		ap_attack = 195
+		build_cost_ic = 34
 		resources = {
-#			oil = 2
-			steel = 6
+			steel = 5
 			chromium = 5
 		}
 	}
@@ -448,21 +470,21 @@ equipments = {
 		priority = 200
 		visual_level = 4
 		can_convert_from = {
+			modern_tank_destroyer_equipment_4
 			modern_tank_equipment_4
 			modern_tank_equipment_5
 		}
-		maximum_speed = 12
-		defense = 10
-		breakthrough = 4
-		armor_value = 185
+		maximum_speed = 16
+		defense = 12
+		breakthrough = 3.2
+		armor_value = 180
 		soft_attack = 18
-		hard_attack = 80
-		ap_attack = 220
-		build_cost_ic = 32
+		hard_attack = 90
+		ap_attack = 215
+		build_cost_ic = 36
 		resources = {
-#			oil = 3
 			steel = 6
-			chromium = 6
+			chromium = 5
 		}
 	}
 
@@ -507,7 +529,6 @@ equipments = {
 		build_cost_ic = 28
 
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 4
 		}
@@ -521,6 +542,8 @@ equipments = {
 		visual_level = 0
 		can_convert_from = {
 			modern_tank_equipment_1
+			heavy_tank_aa_equipment_3
+			medium_tank_aa_equipment_3
 		}
 	}
 
@@ -532,49 +555,49 @@ equipments = {
 		priority = 200
 		visual_level = 1
 		can_convert_from = {
+			modern_tank_aa_equipment_1
 			modern_tank_equipment_1
 			modern_tank_equipment_2
 		}
-		maximum_speed = 10.5
-		defense = 4.2
-		breakthrough = 5
-		armor_value = 100
+		maximum_speed = 11.5
+		defense = 4.5
+		breakthrough = 4.5
+		armor_value = 108
 		soft_attack = 10
-		hard_attack = 9.3
+		hard_attack = 9
 		ap_attack = 120
-		air_attack = 59
-		build_cost_ic = 29
+		air_attack = 60
+		build_cost_ic = 30
 		resources = {
-#			oil = 2
 			steel = 4
 			chromium = 4
 		}
 	}
 
 	modern_tank_aa_equipment_3 = {
-		year = 1951
+		year = 1952
 		archetype = modern_tank_aa_equipment
 		parent = modern_tank_aa_equipment_2
 		family = modern_tank_equipment_3
 		priority = 200
 		visual_level = 2
 		can_convert_from = {
+			modern_tank_aa_equipment_2
 			modern_tank_equipment_2
 			modern_tank_equipment_3
 		}
-		maximum_speed = 11
-		defense = 4.4
-		breakthrough = 6
-		armor_value = 111
+		maximum_speed = 13
+		defense = 5
+		breakthrough = 5
+		armor_value = 126
 		soft_attack = 11
-		hard_attack = 11.1
+		hard_attack = 10.5
 		ap_attack = 140
-		air_attack = 68
-		build_cost_ic = 30
+		air_attack = 70
+		build_cost_ic = 32
 		resources = {
-#			oil = 2
 			steel = 5
-			chromium = 5
+			chromium = 4
 		}
 	}
 
@@ -586,21 +609,21 @@ equipments = {
 		priority = 200
 		visual_level = 3
 		can_convert_from = {
+			modern_tank_aa_equipment_3
 			modern_tank_equipment_3
 			modern_tank_equipment_4
 		}
-		maximum_speed = 11.5
-		defense = 4.6
-		breakthrough = 7
-		armor_value = 121
+		maximum_speed = 14.5
+		defense = 5.5
+		breakthrough = 5.5
+		armor_value = 144
 		soft_attack = 12
-		hard_attack = 12.9
+		hard_attack = 12
 		ap_attack = 160
-		air_attack = 77
-		build_cost_ic = 31
+		air_attack = 80
+		build_cost_ic = 34
 		resources = {
-#			oil = 2
-			steel = 6
+			steel = 5
 			chromium = 5
 		}
 	}
@@ -613,23 +636,22 @@ equipments = {
 		priority = 200
 		visual_level = 4
 		can_convert_from = {
+			modern_tank_aa_equipment_4
 			modern_tank_equipment_4
 			modern_tank_equipment_5
 		}
-		maximum_speed = 12
-		defense = 4.8
-		breakthrough = 8
-		armor_value = 132
+		maximum_speed = 16
+		defense = 6
+		breakthrough = 6
+		armor_value = 162
 		soft_attack = 13
-		hard_attack = 14.7
+		hard_attack = 13.5
 		ap_attack = 180
-		air_attack = 86
-		build_cost_ic = 32
+		air_attack = 90
+		build_cost_ic = 36
 		resources = {
-#			oil = 3
 			steel = 6
-			chromium = 6
+			chromium = 5
 		}
 	}
-
 }

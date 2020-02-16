@@ -437,28 +437,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -521,28 +521,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -574,28 +574,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -658,28 +658,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -711,28 +711,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -795,28 +795,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		path = {
@@ -848,28 +848,28 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		mot_artillery_brigade = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		light_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		medium_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		super_heavy_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 		modern_sp_artillery_brigade = {
-			soft_attack = 0.025
+			soft_attack = 0.05
 		}
 
 		research_cost = 1
@@ -1882,31 +1882,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair7
@@ -1950,31 +1950,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair8
@@ -2066,31 +2066,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair10
@@ -2134,31 +2134,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
-		tech_air_damage_factor = -0.01
-		anti_air_brigade = {
-			air_attack = 0.05
-		}
+		tech_air_damage_factor = -0.02
 		light_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair11
@@ -2250,31 +2250,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair13
@@ -2318,31 +2318,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
+		industry_air_damage_factor = -0.08
 
 		path = {
 			leads_to_tech = antiair14
@@ -2434,32 +2434,31 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_air = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		anti_air_brigade = {
-			air_attack = 0.05
+			air_attack = 0.1
 		}
 		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		tech_air_damage_factor = -0.02
+		light_sp_anti_air_brigade = {
 			air_attack = 0.05
 		}
-		tech_air_damage_factor = -0.01
-		light_sp_anti_air_brigade = {
-			air_attack = 0.025
-		}
 		medium_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		super_heavy_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
 		modern_sp_anti_air_brigade = {
-			air_attack = 0.025
+			air_attack = 0.05
 		}
-		industry_air_damage_factor = -0.04
-
+		industry_air_damage_factor = -0.08
 
 		research_cost = 1
 
@@ -2512,7 +2511,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = 6 y = 2 }
 		}
 
 		ai_will_do = {
@@ -2623,7 +2622,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = 6 y = 4 }
 		}
 
 		ai_will_do = {
@@ -2695,7 +2694,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = 6 y = 6 }
 		}
 
 		ai_will_do = {
@@ -2802,7 +2801,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = 6 y = 8 }
 		}
 
 		ai_will_do = {
@@ -2900,7 +2899,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 10 }
+			position = { x = 6 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2972,7 +2971,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 12 }
+			position = { x = 6 y = 12 }
 		}
 
 		ai_will_do = {
@@ -3025,36 +3024,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3068,7 +3067,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 14 }
+			position = { x = 6 y = 14 }
 		}
 
 		ai_will_do = {
@@ -3108,36 +3107,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3151,7 +3150,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 16 }
+			position = { x = 6 y = 16 }
 		}
 
 		ai_will_do = {
@@ -3205,7 +3204,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 18 }
+			position = { x = 6 y = 18 }
 		}
 
 		ai_will_do = {
@@ -3245,36 +3244,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3288,7 +3287,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 20 }
+			position = { x = 6 y = 20 }
 		}
 
 		ai_will_do = {
@@ -3327,37 +3326,38 @@ technologies = {
 		xp_research_cost = 50
 		xp_research_bonus = 0.50
 
+
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3371,7 +3371,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 22 }
+			position = { x = 6 y = 22 }
 		}
 
 		ai_will_do = {
@@ -3425,7 +3425,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 24 }
+			position = { x = 6 y = 24 }
 		}
 
 		ai_will_do = {
@@ -3465,36 +3465,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3508,7 +3508,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 26 }
+			position = { x = 6 y = 26 }
 		}
 
 		ai_will_do = {
@@ -3548,36 +3548,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		path = {
@@ -3591,7 +3591,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 28 }
+			position = { x = 6 y = 28 }
 		}
 
 		ai_will_do = {
@@ -3645,7 +3645,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 30 }
+			position = { x = 6 y = 30 }
 		}
 
 		ai_will_do = {
@@ -3685,36 +3685,36 @@ technologies = {
 		xp_research_bonus = 0.50
 
 		anti_tank = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		anti_tank_brigade = {
-			hard_attack = 0.05
-			ap_attack = 0.015
+			hard_attack = 0.1
+			ap_attack = 0.03
 		}
 		mot_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.03
+		}
+		light_tank_destroyer_brigade = {
 			hard_attack = 0.05
 			ap_attack = 0.015
 		}
-		light_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
-		}
 		medium_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		super_heavy_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 		modern_tank_destroyer_brigade = {
-			hard_attack = 0.025
-			ap_attack = 0.01
+			hard_attack = 0.05
+			ap_attack = 0.015
 		}
 
 		research_cost = 1
@@ -3723,7 +3723,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 32 }
+			position = { x = 6 y = 32 }
 		}
 
 		ai_will_do = {
@@ -3779,7 +3779,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -7 y = 4 }
+			position = { x = -6 y = 4 }
 		}
 		categories = {
 			artillery
@@ -3808,7 +3808,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -7 y = 12 }
+			position = { x = -6 y = 12 }
 		}
 		categories = {
 			artillery
@@ -3837,7 +3837,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -7 y = 18 }
+			position = { x = -6 y = 18 }
 		}
 		categories = {
 			artillery
@@ -3866,7 +3866,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -7 y = 22 }
+			position = { x = -6 y = 22 }
 		}
 		categories = {
 			artillery
@@ -3881,6 +3881,10 @@ technologies = {
 			building = anti_air_building
 			level = 10
 		}
+		path = {
+			leads_to_tech = antiairbuilding6
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 
 		start_year = 1955
@@ -3891,7 +3895,61 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -7 y = 26 }
+			position = { x = -6 y = 26 }
+		}
+		categories = {
+			artillery
+		}
+	}
+
+	antiairbuilding6 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+		enable_building = {
+			building = anti_air_building
+			level = 11
+		}
+		path = {
+			leads_to_tech = antiairbuilding7
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+
+		start_year = 1959
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 29 }
+		}
+		categories = {
+			artillery
+		}
+	}
+
+	antiairbuilding7 = {
+		xp_research_type = army
+		xp_research_cost = 50
+		xp_research_bonus = 0.50
+		enable_building = {
+			building = anti_air_building
+			level = 12
+		}
+		research_cost = 1
+
+		start_year = 1963
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 32 }
 		}
 		categories = {
 			artillery

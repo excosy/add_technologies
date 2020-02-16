@@ -41,7 +41,6 @@ equipments = {
 
 		build_cost_ic = 25
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -68,6 +67,10 @@ equipments = {
 		visual_level = 1
 		is_convertable = yes
 
+		can_convert_from = {
+			heavy_tank_equipment_1
+		}
+
 		#Misc Abilities
 		maximum_speed = 6
 
@@ -83,7 +86,6 @@ equipments = {
 
 		build_cost_ic = 27
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -98,6 +100,10 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
+
+		can_convert_from = {
+			heavy_tank_equipment_2
+		}
 
 		#Misc Abilities
 		maximum_speed = 6
@@ -114,7 +120,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-#			oil = 1
 			steel = 4
 			chromium = 3
 		}
@@ -129,6 +134,10 @@ equipments = {
 		visual_level = 3
 		is_convertable = yes
 
+		can_convert_from = {
+			heavy_tank_equipment_3
+		}
+
 		#Misc Abilities
 		maximum_speed = 7
 
@@ -139,12 +148,11 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 45
-		hard_attack = 45
+		hard_attack = 50
 		ap_attack = 151
 
 		build_cost_ic = 33
 		resources = {
-#			oil = 2
 			steel = 5
 			chromium = 4
 		}
@@ -159,6 +167,10 @@ equipments = {
 		visual_level = 4
 		is_convertable = yes
 
+		can_convert_from = {
+			heavy_tank_equipment_4
+		}
+
 		#Misc Abilities
 		maximum_speed = 8
 
@@ -169,13 +181,12 @@ equipments = {
 
 		#Offensive Abilities
 		soft_attack = 52
-		hard_attack = 52
+		hard_attack = 60
 		ap_attack = 171
 
-		build_cost_ic = 33
+		build_cost_ic = 36
 		resources = {
-#			oil = 2
-			steel = 7
+			steel = 6
 			chromium = 5
 		}
 	}
@@ -221,7 +232,6 @@ equipments = {
 
 		build_cost_ic = 25
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -247,6 +257,7 @@ equipments = {
 		parent = heavy_tank_artillery_equipment_1
 		family = heavy_tank_equipment_2
 		can_convert_from = {
+			heavy_tank_artillery_equipment_1
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
@@ -267,7 +278,6 @@ equipments = {
 
 		build_cost_ic = 27
 		resources = {
-#			oil = 1
 			steel = 4
 			chromium = 3
 		}
@@ -280,6 +290,7 @@ equipments = {
 		parent = heavy_tank_artillery_equipment_2
 		family = heavy_tank_equipment_3
 		can_convert_from = {
+			heavy_tank_artillery_equipment_2
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -300,7 +311,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-#			oil = 1
 			steel = 5
 			chromium = 3
 		}
@@ -313,6 +323,7 @@ equipments = {
 		parent = heavy_tank_artillery_equipment_3
 		family = heavy_tank_equipment_4
 		can_convert_from = {
+			heavy_tank_artillery_equipment_3
 			heavy_tank_equipment_3
 			heavy_tank_equipment_4
 		}
@@ -333,7 +344,6 @@ equipments = {
 
 		build_cost_ic = 33
 		resources = {
-#			oil = 2
 			steel = 5
 			chromium = 4
 		}
@@ -346,6 +356,7 @@ equipments = {
 		parent = heavy_tank_artillery_equipment_4
 		family = heavy_tank_equipment_5
 		can_convert_from = {
+			heavy_tank_artillery_equipment_4
 			heavy_tank_equipment_4
 			heavy_tank_equipment_5
 		}
@@ -364,9 +375,8 @@ equipments = {
 		soft_attack = 82
 		hard_attack = 4.5
 
-		build_cost_ic = 38
+		build_cost_ic = 36
 		resources = {
-#			oil = 2
 			steel = 8
 			chromium = 5
 		}
@@ -413,7 +423,6 @@ equipments = {
 
 		build_cost_ic = 25
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -439,6 +448,7 @@ equipments = {
 		parent = heavy_tank_destroyer_equipment_1
 		family = heavy_tank_equipment_2
 		can_convert_from = {
+			heavy_tank_destroyer_equipment_1
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
@@ -461,7 +471,6 @@ equipments = {
 
 		build_cost_ic = 27
 		resources = {
-#			oil = 1
 			steel = 4
 			chromium = 3
 		}
@@ -474,6 +483,7 @@ equipments = {
 		parent = heavy_tank_destroyer_equipment_2
 		family = heavy_tank_equipment_3
 		can_convert_from = {
+			heavy_tank_destroyer_equipment_2
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -496,7 +506,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-#			oil = 2
 			steel = 4
 			chromium = 4
 		}
@@ -509,6 +518,7 @@ equipments = {
 		parent = heavy_tank_destroyer_equipment_3
 		family = heavy_tank_equipment_4
 		can_convert_from = {
+			heavy_tank_destroyer_equipment_3
 			heavy_tank_equipment_3
 			heavy_tank_equipment_4
 		}
@@ -519,19 +529,18 @@ equipments = {
 		maximum_speed = 7
 
 		#Defensive Abilities
-		defense = 9
+		defense = 8
 		breakthrough = 2.8
 		armor_value = 150
 
 		#Offensive Abilities
 		soft_attack = 13
-		hard_attack = 65
+		hard_attack = 80
 		ap_attack = 180
 		air_attack = 0
 
 		build_cost_ic = 33
 		resources = {
-#			oil = 2
 			steel = 5
 			chromium = 5
 		}
@@ -544,6 +553,7 @@ equipments = {
 		parent = heavy_tank_destroyer_equipment_4
 		family = heavy_tank_equipment_5
 		can_convert_from = {
+			heavy_tank_destroyer_equipment_4
 			heavy_tank_equipment_4
 			heavy_tank_equipment_5
 		}
@@ -554,20 +564,19 @@ equipments = {
 		maximum_speed = 8
 
 		#Defensive Abilities
-		defense = 9.5
+		defense = 9
 		breakthrough = 3.5
 		armor_value = 170
 
 		#Offensive Abilities
 		soft_attack = 16
-		hard_attack = 73
-		ap_attack = 205
+		hard_attack = 100
+		ap_attack = 210
 		air_attack = 0
 
-		build_cost_ic = 38
+		build_cost_ic = 36
 		resources = {
-#			oil = 2
-			steel = 7
+			steel = 6
 			chromium = 6
 		}
 	}
@@ -613,7 +622,6 @@ equipments = {
 
 		build_cost_ic = 25
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -639,6 +647,7 @@ equipments = {
 		parent = heavy_tank_aa_equipment_1
 		family = heavy_tank_equipment_2
 		can_convert_from = {
+			heavy_tank_aa_equipment_1
 			heavy_tank_equipment_1
 			heavy_tank_equipment_2
 		}
@@ -661,7 +670,6 @@ equipments = {
 
 		build_cost_ic = 27
 		resources = {
-#			oil = 1
 			steel = 3
 			chromium = 3
 		}
@@ -674,6 +682,7 @@ equipments = {
 		parent = heavy_tank_aa_equipment_2
 		family = heavy_tank_equipment_3
 		can_convert_from = {
+			heavy_tank_aa_equipment_2
 			heavy_tank_equipment_2
 			heavy_tank_equipment_3
 		}
@@ -698,7 +707,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-#			oil = 1
 			steel = 4
 			chromium = 3
 		}
@@ -712,6 +720,7 @@ equipments = {
 		parent = heavy_tank_aa_equipment_3
 		family = heavy_tank_equipment_4
 		can_convert_from = {
+			heavy_tank_aa_equipment_3
 			heavy_tank_equipment_3
 			heavy_tank_equipment_4
 		}
@@ -724,7 +733,7 @@ equipments = {
 
 
 		#Defensive Abilities
-		defense = 4.5
+		defense = 4
 		breakthrough = 5.5
 		armor_value = 110
 
@@ -736,7 +745,6 @@ equipments = {
 
 		build_cost_ic = 33
 		resources = {
-#			oil = 2
 			steel = 5
 			chromium = 4
 		}
@@ -750,6 +758,7 @@ equipments = {
 		parent = heavy_tank_aa_equipment_4
 		family = heavy_tank_equipment_5
 		can_convert_from = {
+			heavy_tank_aa_equipment_4
 			heavy_tank_equipment_4
 			heavy_tank_equipment_5
 		}
@@ -772,10 +781,9 @@ equipments = {
 		ap_attack = 160
 		air_attack = 78
 
-		build_cost_ic = 38
+		build_cost_ic = 36
 		resources = {
-#			oil = 2
-			steel = 7
+			steel = 6
 			chromium = 5
 		}
 

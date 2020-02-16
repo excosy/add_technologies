@@ -2181,7 +2181,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.05
+			build_cost_ic = 0.01
 			lg_attack = 0.01
 			hg_attack = 0.01
 		}
@@ -2198,7 +2198,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.075
+			build_cost_ic = 0.02
 			lg_attack = 0.02
 			hg_attack = 0.02
 			anti_air_attack = 0.01
@@ -2221,7 +2221,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.03
 			lg_attack = 0.03
 			hg_attack = 0.03
 			anti_air_attack = 0.02
@@ -2244,7 +2244,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.125
+			build_cost_ic = 0.04
 			lg_attack = 0.04
 			hg_attack = 0.04
 			anti_air_attack = 0.03
@@ -2267,7 +2267,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.15
+			build_cost_ic = 0.05
 			lg_attack = 0.05
 			hg_attack = 0.05
 			anti_air_attack = 0.04
@@ -2290,7 +2290,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.175
+			build_cost_ic = 0.06
 			lg_attack = 0.06
 			hg_attack = 0.06
 			anti_air_attack = 0.05
@@ -2313,7 +2313,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.2
+			build_cost_ic = 0.07
 			lg_attack = 0.07
 			hg_attack = 0.07
 			anti_air_attack = 0.06
@@ -2336,7 +2336,7 @@ equipment_modules = {
 		add_stats = {
 		}
 		multiply_stats = {
-			build_cost_ic = 0.225
+			build_cost_ic = 0.08
 			lg_attack = 0.08
 			hg_attack = 0.08
 			anti_air_attack = 0.07
@@ -4974,7 +4974,7 @@ equipment_modules = {
 	ssm_1 = {
 		category = ssm
 		add_stats = {
-			build_cost_ic = 1500
+			build_cost_ic = 800
 			lg_attack = 10
 			hg_attack = 10
 		}
@@ -4997,7 +4997,7 @@ equipment_modules = {
 		category = ssm
 		parent = ssm_1
 		add_stats = {
-			build_cost_ic = 2000
+			build_cost_ic = 1200
 			lg_attack = 15
 			hg_attack = 15
 		}
@@ -5021,8 +5021,8 @@ equipment_modules = {
 	sam_1 = {
 		category = sam
 		add_stats = {
-			build_cost_ic = 1500
-			anti_air_attack = 8
+			build_cost_ic = 300
+			anti_air_attack = 10
 		}
 		multiply_stats = {
 			reliability = -0.05
@@ -5039,7 +5039,7 @@ equipment_modules = {
 		category = sam
 		parent = sam_1
 		add_stats = {
-			build_cost_ic = 2000
+			build_cost_ic = 450
 			anti_air_attack = 15
 		}
 		multiply_stats = {
@@ -5051,7 +5051,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module = sam_1
-			convert_cost_ic = 500
+			convert_cost_ic = 200
 		}
 	}
 
@@ -5059,7 +5059,7 @@ equipment_modules = {
 		category = sam
 		parent = sam_2
 		add_stats = {
-			build_cost_ic = 2200
+			build_cost_ic = 600
 			anti_air_attack = 20
 		}
 		multiply_stats = {
@@ -5067,7 +5067,7 @@ equipment_modules = {
 		}
 		can_convert_from = {
 			module_category = sam
-			convert_cost_ic = 1760
+			convert_cost_ic = 2000
 		}
 		can_convert_from = {
 			module = sam_2

@@ -59,7 +59,7 @@ equipments = {
 		air_range = 640
 		maximum_speed = 5760
 		air_agility = 10
-		air_bombing = 450
+		air_bombing = 350
 	}
 
 	guided_missile_equipment_3 = {
@@ -71,10 +71,10 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 
-		air_range = 800
-		maximum_speed = 9999
+		air_range = 6000
+		maximum_speed = 6000
 		air_agility = 10
-		air_bombing = 600
+		air_bombing = 400
 
 		# build_cost_ic = 44
 	}
@@ -87,10 +87,10 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 
-		air_range = 1000
-		maximum_speed = 9999
+		air_range = 10000
+		maximum_speed = 7000
 		air_agility = 10
-		air_bombing = 800
+		air_bombing = 500
 
 		# build_cost_ic = 44
 	}
@@ -103,10 +103,10 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 
-		air_range = 1200
-		maximum_speed = 9999
+		air_range = 14000
+		maximum_speed = 8000
 		air_agility = 10
-		air_bombing = 1000
+		air_bombing = 600
 
 		# build_cost_ic = 44
 	}
@@ -119,10 +119,10 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 
-		air_range = 2400
-		maximum_speed = 9999
+		air_range = 18000
+		maximum_speed = 9000
 		air_agility = 10
-		air_bombing = 1200
+		air_bombing = 700
 
 		# build_cost_ic = 44
 	}
@@ -135,10 +135,10 @@ equipments = {
 		one_use_only = yes
 		sprite = missile_default
 
-		air_range = 14000
-		maximum_speed = 9999
+		air_range = 22000
+		maximum_speed = 10000
 		air_agility = 10
-		air_bombing = 1400
+		air_bombing = 800
 
 		# build_cost_ic = 44
 	}

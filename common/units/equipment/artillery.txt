@@ -52,6 +52,10 @@ equipments = {
 		priority = 50
 		visual_level = 1
 
+		can_convert_from = {
+			artillery_equipment_1
+		}
+
 		defense = 15
 		breakthrough = 7
 		soft_attack = 30
@@ -69,6 +73,10 @@ equipments = {
 		parent = artillery_equipment_2
 		priority = 50
 		visual_level = 2
+
+		can_convert_from = {
+			artillery_equipment_2
+		}
 
 		defense = 18
 		breakthrough = 8
@@ -88,6 +96,10 @@ equipments = {
 		priority = 50
 		visual_level = 3
 
+		can_convert_from = {
+			artillery_equipment_3
+		}
+
 		defense = 20
 		breakthrough = 9
 		soft_attack = 38
@@ -106,8 +118,12 @@ equipments = {
 		priority = 50
 		visual_level = 4
 
+		can_convert_from = {
+			artillery_equipment_4
+		}
+
 		defense = 22
-		breakthrough = 9.5
+		breakthrough = 10
 		soft_attack = 42
 
 		build_cost_ic = 5.5
@@ -124,8 +140,12 @@ equipments = {
 		priority = 50
 		visual_level = 5
 
+		can_convert_from = {
+			artillery_equipment_5
+		}
+
 		defense = 24
-		breakthrough = 10
+		breakthrough = 11
 		soft_attack = 46
 
 		build_cost_ic = 6
@@ -176,6 +196,10 @@ equipments = {
 		archetype = rocket_artillery_equipment
 		priority = 60
 		visual_level = 0
+
+		can_convert_from = {
+			artillery_equipment_2
+		}
 	}
 
 	rocket_artillery_equipment_2 = {
@@ -184,6 +208,11 @@ equipments = {
 		parent = rocket_artillery_equipment_1
 		priority = 60
 		visual_level = 1
+
+		can_convert_from = {
+			rocket_artillery_equipment_1
+			artillery_equipment_3
+		}
 
 		defense = 15
 		breakthrough = 12
@@ -203,6 +232,11 @@ equipments = {
 		priority = 60
 		visual_level = 2
 
+		can_convert_from = {
+			rocket_artillery_equipment_2
+			artillery_equipment_4
+		}
+
 		defense = 18
 		breakthrough = 15
 		soft_attack = 44
@@ -221,8 +255,13 @@ equipments = {
 		priority = 60
 		visual_level = 3
 
+		can_convert_from = {
+			rocket_artillery_equipment_3
+			artillery_equipment_5
+		}
+
 		defense = 20
-		breakthrough = 17
+		breakthrough = 18
 		soft_attack = 50
 
 		build_cost_ic = 7
@@ -239,8 +278,13 @@ equipments = {
 		priority = 60
 		visual_level = 4
 
+		can_convert_from = {
+			rocket_artillery_equipment_4
+			artillery_equipment_6
+		}
+
 		defense = 22
-		breakthrough = 19
+		breakthrough = 21
 		soft_attack = 56
 
 		build_cost_ic = 8
@@ -281,7 +325,6 @@ equipments = {
 
 		build_cost_ic = 12
 		resources = {
-#			oil = 1
 			rubber = 1
 			steel = 1
 		}
