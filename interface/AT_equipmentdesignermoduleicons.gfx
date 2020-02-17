@@ -600,6 +600,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/secondary_battery_icn_8.dds"
 	}
 	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries"
+		textureFile = "gfx/interface/equipmentdesigner/secondary_battery_icn_dp.dds"
+	}
+	spriteType = {
 		name = "GFX_SMI_ship_anti_air_cannon"
 		textureFile = "gfx/interface/equipmentdesigner/ship_anti_air_cannon.dds"
 	}

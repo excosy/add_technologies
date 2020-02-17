@@ -2476,6 +2476,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			heavy_ship_engine_8
+			super_heavy_ship_engine_4
 		}
 		sub_technologies = {
 			tech_dummy
