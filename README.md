@@ -12,6 +12,10 @@ credits:
     <dd>https://steamcommunity.com/workshop/filedetails/?id=1324126149</dd>
 </dl>
 
+## Archived
+
+for newer update please visit https://github.com/excosy/expand_technologies
+
 此mod扩展了原版1944年之后的科技树到1964年，基本不影响1944年之前的数据和玩法；
 
 ## 目前的修改思路
